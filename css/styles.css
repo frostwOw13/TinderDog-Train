@@ -1,0 +1,150 @@
+#title {
+  background-color: #ff4c68;
+}
+
+h1 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 3rem;
+  line-height: 1.5;
+  color: white;
+  margin-bottom: 30px;
+}
+
+h2 {
+  font-family: "Montserrat";
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+h3 {
+  font-family: "Montserrat"
+}
+
+p {
+  color: #8f8f8f;
+}
+.container-fluid {
+  padding: 3% 15% 12% 15%;
+
+}
+
+.iphone6img {
+  transform: rotate(25deg);
+  width: 60%;
+  position: absolute;
+}
+
+
+#features {
+  padding: 7% 15%;
+  background-color: #fff;
+  position: relative;
+}
+
+.nav-link {
+  font-family: "Montserrat-Light";
+  font-size: 1.2rem;
+  line-height: 1.5;
+  color: white;
+}
+
+button {
+  font-family: "ubuntu";
+}
+
+.nav-item {
+  padding: 0 25px;
+}
+
+.navbar {
+  padding: 0;
+}
+
+/* Futures */
+.icon {
+  color: #ef8172;
+  margin-bottom: 1rem;
+}
+
+.fas:hover {
+  color: #ff4c68
+}
+
+
+.futures-box {
+  text-align: center;
+  padding: 5%;
+}
+
+/* Testimonals Section */
+
+#testimonials {
+  background-color: #ef8172;
+  text-align: center;
+  color: #fff;
+}
+
+.carousel-item {
+    padding: 7% 15%;
+}
+
+.testimonial-image {
+  width: 10%;
+  border-radius: 100%;
+  margin: 10px;
+}
+
+#press {
+  background-color: #ef8172;
+  text-align: center;
+  padding-bottom: 3%;
+}
+
+.press-logo {
+  width: 15%;
+  margin: 50px 20px 50px;
+}
+
+/* Price Section */
+ #pricing {
+   padding: 100px;
+   text-align: center;
+ }
+
+.pricing-column {
+  padding: 3% 2%;
+}
+
+@media (max-width: 992px) {
+  .container-fluid {
+    text-align: center;
+  }
+  .iphone6img {
+    position: static;
+    transform: rotate(0);
+    padding-top: 15%;
+  }
+}
+
+/* Call to Action */
+
+#cta {
+  background-color: #ff4c68;
+  text-align: center;
+  padding: 8% 15%;
+}
+
+.h3footer {
+  font-size: 3.5rem;
+  line-height: 1.5;
+  color: #fff;
+  padding-bottom: 5%;
+}
+
+/* Footer Section */
+
+#footer {
+  background-color: #fff;
+  text-align: center;
+  padding: 5% 15%;
+}
